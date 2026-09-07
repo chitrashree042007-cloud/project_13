@@ -1,0 +1,7 @@
+file = open("scores.txt", "w")
+file.write("Sam scored 3\n")
+file.close()
+print("Saved!")
+file = open("scores.txt", "a")
+file.write("A new score line\n")
+file.close()
